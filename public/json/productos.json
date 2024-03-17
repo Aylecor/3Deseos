@@ -1,0 +1,940 @@
+[
+    {
+        "id" : 1,
+        "nombre": "Prótesis de mano",
+        "descripcion": "Prótesis de mano. Este prototipo forma parte del proyecto de control de prótesis robóticas mediante un sensor mioeléctrico, pero también se pueden utilizar otros sensores.",
+        "imagenes": [
+            "img/1proMano/img2.jpg",
+            "img/1proMano/img3.jpg",
+            "img/1proMano/img4.jpg"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 765425",
+            "Fecha de publicación: 2022-06-25 23:34",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s"
+        ], 
+        "comentarios": [],
+        "categoria": "prótesis",
+	    "archivo" : ""
+    },
+    {
+        "id": 2,
+        "nombre": "Prótesis de Pierna",
+        "descripcion": "Una prótesis robótica didáctica, diseñada para estudiantes y entusiastas de la robótica.",
+        "imagenes":[
+            "img/2proPierna/img5.jpg",
+            "img/2proPierna/img8.jpg",
+            "img/2proPierna/img7.jpg",
+            "img/img11.jpg"
+          ],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ],
+        "comentarios": [
+            {
+                "usuario": "Usuario 1",
+                "calificacion": 4,
+                "fecha": "01/10/2023",
+                "comentario": "Soy estudiante y esta prótesis es genial para aprender. La imprimí a buena velocidad y quedó perfecta."
+            },
+            {
+                "usuario": "Usuario 2",
+                "calificacion": 3,
+                "fecha": "02/10/2023",
+                "comentario": "Un amigo está encantado con su nueva pierna impresa. Diseño preciso y fácil ensamblaje. Recomendado al 100%."
+            },
+            {
+                "usuario": "Usuario 3",
+                "calificacion": 5,
+                "fecha": "03/10/2023",
+                "comentario": "Perfecto para principiantes. Las instrucciones son sencillas, incluso para novatos como yo. Ideal para quienes comienzan en robótica. ¡Totalmente recomendado!"
+            },
+            {
+                "usuario": "Usuario 4",
+                "calificacion": 4,
+                "fecha": "20/10/2023",
+                "comentario": "Quedó bien"
+            }
+        ],
+        "categoria": "prótesis",
+	    "archivo" : ""
+    },
+    {
+        "id" : 3,
+        "nombre": "Prótesis de mano",
+        "descripcion": "Prótesis de mano Phoenix sin extremidades",
+        "imagenes": [ 
+        "img/3proMano/1.png",
+        "img/3proMano/2.png",
+        "img/3proMano/3.png",
+        "img/3proMano/4.png"
+        ],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []  
+    },
+    {
+        "id" : 4,
+        "nombre": "Prótesis mecánica de dedo",
+        "descripcion": "Prótesis de dedo, a imprimir con material resistente, dimensiones a adaptar para encajar.",
+        "imagenes": [
+        "img/4proDedo/1.png",
+        "img/4proDedo/2.png",
+        "img/4proDedo/3.png",
+        "img/4proDedo/4.png"   
+        ],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []
+    },
+    {
+        "id" : 5,
+        "nombre": "Prótesis de dedo",
+        "descripcion": "Descripción del Producto.",
+        "imagenes": [
+        "img/5proDedo/1.jpg",
+        "img/5proDedo/2.png",
+        "img/5proDedo/3.png",
+        "img/5proDedo/4.png",
+        "img/5proDedo/5.png",
+        "img/5proDedo/6.png",
+        "img/5proDedo/7.png" 
+        ] ,
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": []  
+    },
+    {
+        "id" : 6,
+        "nombre": "Prótesis de dedo",
+        "descripcion": "Diseño de prótesis para dedo indice sin dos falanges. Para dedo índicie derecho, si necesitas el izquierdo, solo espéjalo.",
+        "imagenes": [
+            "img/6protesisDedo/1-pro-dedo.png",
+            "img/6protesisDedo/2-pro-dedo.png",
+            "img/6protesisDedo/3-pro-dedo.png",
+            "img/6protesisDedo/4-pro-dedo.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 172546",
+            "Fecha de publicación: 2020-07-14 17:42",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: entre 30 y 100 mm/s.",
+            "Módelo 3d tamaño: X 24,8 - Y 78,6 - Z 24,8 mm."  
+        ], 
+        "comentarios": [] 
+    },
+    {
+        "id" : 7,
+        "nombre": "Prótesis articulada de mano biomécanica",
+        "descripcion": "Prótesis articulada de mano biomécanica, combina la funcionalidad avanzada con un diseño ergonómico.",
+        "imagenes": [
+            "img/7protesisMano/1-pro-mano.png",
+            "img/7protesisMano/2-pro-mano.png",
+            "img/7protesisMano/3-pro-mano.png",
+            "img/7protesisMano/4-pro-mano.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 172546",
+            "Fecha de publicación: 2020-07-14 17:42",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 29 partes encastrables.",
+            "Altura: 18cm.",
+            "Recomendación: Imprimir con algún material flexible para darle articulación."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 8",
+              "calificacion": 5,
+              "fecha": "12/12/2023",
+              "comentario": "Increíble diseño. La funcionalidad articulada es asombrosa. Impresionó a todos en mi clase de robótica."
+            }
+        ],
+        "categoria": "prótesis",
+        "archivo" : ""
+       
+    },
+    {
+        "id" : 8,
+        "nombre": "Prótesis de brazo biomécanico",
+        "descripcion": "Prótesis de brazo biomecánico articulado prototipo funcional, diseñado para devolver la funcionalidad.",
+        "imagenes": [
+            "img/8protesisBrazo/1-pro-brazo.png",
+            "img/8protesisBrazo/2-pro-brazo.png",
+            "img/8protesisBrazo/3-pro-brazo.png",
+            "img/8protesisBrazo/4-pro-brazo.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1337982",
+            "Fecha de publicación: 2023-07-21 23:52",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 33 partes encastrables.",
+            "Recomendación: Imprimir con algún material flexible para darle articulación."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 9",
+              "calificacion": 4,
+              "fecha": "15/12/2023",
+              "comentario": "Funciona sorprendentemente bien. Mi amigo la usa a diario. Impresa con PETG para mayor durabilidad."
+            }
+        ],
+        "categoria": "prótesis",
+        "archivo" : "" 
+    },
+    {
+        "id" : 9,
+        "nombre": "Prótesis de férula para muñeca y antebrazo",
+        "descripcion": "Férula de muñeca y antebrazo totalmente funcional y práctica para imprimir.",
+        "imagenes": [
+            "img/9protesisMunAnt/1-pro-muneca-antebrazo.png",
+            "img/9protesisMunAnt/2-pro-muneca-antebrazo.png",
+            "img/9protesisMunAnt/3-pro-muneca-antebrazo.png",
+            "img/9protesisMunAnt/4-pro-muneca-antebrazo.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1527928",
+            "Fecha de publicación: 2023-10-21 12:43",
+            "Férula de muñeca y antebrazo totalmente funcional y práctica para imprimir",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 2 partes",
+            "Recomendación: Imprimir con algún material flexible para darle articulación."
+        ],
+        "comentarios": [
+            {
+              "usuario": "Usuario 10",
+              "calificacion": 5,
+              "fecha": "18/12/2023",
+              "comentario": "Perfecta para mi lesión. La imprimí en un tono de color que combina con todo. Muy cómoda de llevar."
+            }
+        ],
+        "categoria": "prótesis",
+        "archivo" : ""
+    },
+    {
+        "id" : 10,
+        "nombre": "Gatos fantasma de Halloween",
+        "descripcion": "3 gatos fantasma de Halloween en diferentes poses.",
+        "imagenes": [
+            "img/10arteGato/cats-1.jpg",
+	        "img/10arteGato/cats-2.jpg",
+	        "img/110arteGato/cats-3.jpg",
+	        "img/10arteGato/cats-4.jpg"
+        ],
+        "caracteristicas": [
+            "Densidad de relleno: 20%",
+            "Temperatura de material: Según lo indique el PLA",
+            "Temperatura de la placa de impresión: 60 °C",
+            "Velocidad de impresión: 55 mm/s",
+            "Tipo de adherencia a la placa: Borde"
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 6",
+              "calificacion": 5,
+              "fecha": "22/11/2023",
+              "comentario": "¡Amo estos gatos! Imprimí las tres poses para decorar mi casa en Halloween. El nivel de detalle es increíble."
+          },
+          {
+            "usuario": "Usuario 7",
+            "calificacion": 4,
+            "fecha": "25/11/2023",
+            "comentario": "Buen diseño, fácil de imprimir. Mis hijos disfrutaron pintándolos para la temporada de Halloween."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 11,
+        "nombre": "Perro bulldog",
+        "descripcion": "Un perro de la raza bulldog.",
+        "imagenes": [
+            "img/11artePerro/1-arte-perro.png",
+	        "img/11artePerro/2-arte-perro.png",
+	        "img/11artePerro/3-arte-perro.png",
+	        "img/11artePerro/4-arte-perro.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 336",
+            "Fecha de publicación: 2014-03-08 06:20",
+            "Bulldog de mendicidad",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 1 ",
+            "Altura: 18cm."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 8",
+              "calificacion": 5,
+              "fecha": "23/12/2023",
+              "comentario": "¡Fascinada por este bulldog! Es increíble, lo adoro."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 12,
+        "nombre": "Groot bebé",
+        "descripcion": "Versión de Baby Groot de la película de éxito de taquilla: Guardians of the Galaxy 2.",
+        "imagenes": [
+            "img/12arteGroot/1-arte-groot.png",
+	        "img/12arteGroot/2-arte-groot.png",
+	        "img/12arteGroot/3-arte-groot.png",
+	        "img/12arteGroot/4-arte-groot.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 10123",
+            "Fecha de publicación: 2017-03-16 18:16",
+            "El modelo se asemeja a la aparición de los baby groots en los trailers de la película.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Hay 2 versiones del modelo, una con el borde y una sin borde. Utilice la versión con el borde para una mejor adherencia. ",
+            "Recomendación: Usar la versión de alto detalle para capturar todo."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 9",
+              "calificacion": 4,
+              "fecha": "10/12/2023",
+              "comentario": "Me quedó increible, estoy muy feliz por mi perro. ¡Gracias!"
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 13,
+        "nombre": "Totoro",
+        "descripcion": "Versión de Tororo de la película de éxito de taquilla: Mi vecino Totoro.",
+        "imagenes": [
+            "img/13arteTotoro/1-arte-totoro.png",
+	        "img/13arteTotoro/2-arte-totoro.png",
+	        "img/13arteTotoro/3-arte-totoro.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 167400",
+            "Fecha de publicación: 2020-07-03 11:45",
+            "El modelo se asemeja a la aparición de Totoro en los trailers de la película.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Recomendación: Usar la versión de alto detalle para capturar todo."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 9",
+              "calificacion": 5,
+              "fecha": "15/09/2023",
+              "comentario": "Siempre quise tener mi propio Totoro, lo pude hacer sin incovenientes, lo recomiendo hacer."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 14,
+        "nombre": "Stitch",
+        "descripcion": "Stitch es un personaje tan icónico, y fue muy divertido convertirlo en una figura completa.",
+        "imagenes": [
+            "img/14arteStitch/1-arte-stitch.png",
+	        "img/14arteStitch/2-arte-stitch.png",
+	        "img/14arteStitch/3-arte-stitch.png",
+            "img/14arteStitch/4-arte-stitch.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 12733",
+            "Fecha de publicación: 2017-07-06 10:20",
+            "Hoy te traemos un Stitch impreso en 3D de la película de Disney Lilo y Stitch.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Modelado todo el asunto en ZBrush de una sola vez. Demora unas 6 horas de principio a fin.",
+            "Recomendación: Aerógrafo para pintar en el azul principal, después todos los detalles con las pinturas de acrílico y un cepillo de pintura."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 10",
+              "calificacion": 5,
+              "fecha": "13/11/2023",
+              "comentario": "Emocianado por el resultado, quedó impecable."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 15,
+        "nombre": "Charmander",
+        "descripcion": "Versión del personaje Charmander de la serie: Pokémon.",
+        "imagenes": [
+            "img/15arteCharmander/1-arte-charmander.png",
+	        "img/15arteCharmander/2-arte-charmander.png",
+	        "img/15arteCharmander/3-arte-charmander.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 201229",
+            "Fecha de publicación: 2020-09-18 14:55",
+            "El modelo se asemeja a la aparición de Charmander del personaje Pokémon.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "3D Size: X 99,8 - Y 80,1 - Z 100 mm",
+            "Recomendación: Usar la versión de alto detalle para capturar todo."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 11",
+              "calificacion": 4,
+              "fecha": "22/08/2023",
+              "comentario": "Me sorprendió el resulatdo, mucho mejor de lo que esperaba."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 16,
+        "nombre": "Mario Bros",
+        "descripcion": "Mario es el personaje y protagonista de la larga y exitosa franquicia de Mario.",
+        "imagenes": [
+            "img/16arteMario/1-arte-mario.png",
+	        "img/16arteMario/2-arte-mario.png",
+	        "img/16arteMario/3-arte-mario.png",
+            "img/16arteMario/4-arte-mario.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 27673",
+            "Fecha de publicación: 2018-06-26 12:50",
+            "Fue creado por el diseñador de videojuegos japonés Shigeru Miyamoto y también es la mascota principal de Nintendo.",
+            "Mario hizo su primera aparición como protagonista del juego arcade Donkey Kong, lanzado en 1981.",
+            "Al ensamblar las piezas frontales, la última pieza a pegar debe ser la nariz.",
+            "Altura: 11cm.",
+            "Recomendación: Impresión multicolor. Imprima cada parte en el color correcto y péguela después. No hay necesidad de pintar nada."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 12",
+              "calificacion": 4,
+              "fecha": "15/09/2023",
+              "comentario": "Es interesante saber que no requiere pintura, me gusto mucho el terminado, sus colores son perfectos."
+          }, 
+          {
+            "usuario": "Usuario 13",
+            "calificacion": 5,
+            "fecha": "25/09/2023",
+            "comentario": "Es un lujo este Mario, me fascino. Gracias."
+           }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 17,
+        "nombre": "Luigi",
+        "descripcion": "Luigi es un personaje de la larga y exitosa franquicia de Mario.",
+        "imagenes": [
+            "img/17arteLuigi/1-arte-luigi.png",
+	        "img/17arteLuigi/2-arte-luigi.png",
+	        "img/17arteLuigi/3-arte-luigi.png",
+            "img/17arteLuigi/4-arte-luigi.png",
+            "img/17arteLuigi/5-arte-luigi.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 27673",
+            "Fecha de publicación: 2018-06-26 12:50",
+            "Luigi es el hermano gemelo más joven y alto de Mario y es uno de los principales protagonistas.",
+            "Las manos y la parte trasera del traje, requieren un poco de apoyo, pero no afectan a la estética de la pieza.",
+            "Al ensamblar las piezas frontales, la última pieza a pegar debe ser la nariz.",
+            "Altura: 13cm.",
+            "Recomendación: Impresión multicolor. Imprima cada parte en el color correcto y péguela después. No hay necesidad de pintar nada."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 14",
+              "calificacion": 3,
+              "fecha": "15/09/2023",
+              "comentario": "Me gusto, quizás me hubiese gustado en un tamaño inferior."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 18,
+        "nombre": "Princesa Peach",
+        "descripcion": "Peach es un personaje de la larga y exitosa franquicia de Mario.",
+        "imagenes": [
+            "img/18artePrincesa/1-arte-princesa.png",
+	        "img/18artePrincesa/2-arte-princesa.png",
+	        "img/18artePrincesa/3-arte-princesa.png",
+            "img/18artePrincesa/4-arte-princesa.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 32179",
+            "Fecha de publicación: 2018-09-17 15:48 ",
+            "La princesa, casualmente Peach, antes Princesa Toadstool fuera de Japón antes de Super Mario 64.",
+            "Los rasgos de la cara pueden ser difíciles de imprimir y ensamblar.",
+            "Algunas piezas requerirán un poco de soporte, pero son escasas y no afectan a la estética de la pieza.",
+            "Altura: 15cm.",
+            "Recomendación: Impresión multicolor. Imprima cada parte en el color correcto y péguela después. No hay necesidad de pintar nada."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 15",
+              "calificacion": 4,
+              "fecha": "15/11/2023",
+              "comentario": "Interesante propuesta, gracias por compartirla."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 19,
+        "nombre": "Bowser",
+        "descripcion": "Bowser es un personaje de la larga y exitosa franquicia de Mario.",
+        "imagenes": [
+            "img/19arteBowser/1-arte-bowser.png",
+	        "img/19arteBowser/2-arte-bowser.png",
+	        "img/19arteBowser/3-arte-bowser.png",
+            "img/19arteBowser/4-arte-bowser.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 27675",
+            "Fecha de publicación: 2018-06-26 12:50",
+            "Bowser es conocido como King Koopa, un personaje principal y antagonista.",
+            "Es poderoso, respira fuego y lidera una organización antagónica de criaturas parecidas a tortugas.",
+            "Algunas piezas requerirán un poco de soporte, pero son escasas y no afectan a la estética de la pieza.",
+            "Recomendación: Impresión multicolor. Imprima cada parte en el color correcto y péguela después. No hay necesidad de pintar nada."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 16",
+              "calificacion": 5,
+              "fecha": "25/04/2023",
+              "comentario": "El mejor personaje antagonista, me encantó."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 20,
+        "nombre": "Yoshi",
+        "descripcion": "Yoshi es un personaje de la larga y exitosa franquicia de Mario.",
+        "imagenes": [
+            "img/20arteYoshi/1-arte-yoshi.png",
+	        "img/20arteYoshi/2-arte-yoshi.png",
+	        "img/20arteYoshi/3-arte-yoshi.png",
+            "img/20arteYoshi/4-arte-yoshi.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 23553",
+            "Fecha de publicación: 2018-04-09 11:36",
+            "Green Yoshi es uno de los héroes de la franquicia, un aliado de Mario y Luigi.",
+            "Es un miembro de la especie Yoshi y ha ayudado a sus hermanos a salvar sus vidas.",
+            "Altura: 12cm.",
+            "Recomendación: Impresión multicolor. Imprima cada parte en el color correcto y péguela después. No hay necesidad de pintar nada."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 17",
+              "calificacion":4,
+              "fecha": "15/09/2023",
+              "comentario": "Ya tengo a mi propio Yoshi, estoy muy contenta."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 21,
+        "nombre": "Yoshi bebé",
+        "descripcion": "Yoshi en tamaño bebé es un personaje de la larga y exitosa franquicia de Mario.",
+        "imagenes": [
+            "img/21arteYoshiBebe/1-arte-yoshi.png",
+            "img/21arteYoshiBebe/2-arte-yoshi.png",
+            "img/21arteYoshiBebe/3-arte-yoshi.png",
+            "img/21arteYoshiBebe/4-arte-yoshi.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1268610",
+            "Fecha de publicación: 2023-06-13 00:18",
+            "Es un miembro de la especie Yoshi y ha ayudado a sus hermanos a salvar sus vidas.",
+            "Recomendación: Impresión multicolor. Imprima cada parte en el color correcto y péguela después. No hay necesidad de pintar nada."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 18",
+              "calificacion": 5,
+              "fecha": "04/06/2023",
+              "comentario": "Me quedó genial, lo voy a usar en mi escritorio."
+          },
+          {
+            "usuario": "Usuario 19",
+            "calificacion": 5,
+            "fecha": "10/08/2023",
+            "comentario": "Ya tengo listo mi bebé Yoshi para regalarme a mi sobrina."
+        }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 22,
+        "nombre": "Koopa Troopa Roja",
+        "descripcion": "Koopa Troopa Roja es un personaje de la larga y exitosa franquicia de Mario.",
+        "imagenes": [
+            "img/22arteKoopaRojo/1-arte-koopa.png",
+            "img/22arteKoopaRojo/2-arte-koopa.png",
+            "img/22arteKoopaRojo/3-arte-koopa.png",
+            "img/22arteKoopaRojo/4-arte-koopa.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 25244",
+            "Fecha de publicación: 2018-05-14 10:26",
+            "Criaturas parecidas a tortugas con caparazones desmontables que vienen en muchos colores diferentes, siendo Koopa Troopas rojas",
+            "Los ojos especialmente el pequeño punto blanco, son bastante pequeños.",
+            "Altura: 12cm.",
+            "Recomendación: Impresión multicolor. Imprima cada parte en el color correcto y péguela después. No hay necesidad de pintar nada."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 20",
+              "calificacion": 5,
+              "fecha": "27/05/2023",
+              "comentario": "Me encantó como quedó mi Koopa roja, voy por la verde."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 23,
+        "nombre": "Koopa Troopa Verde",
+        "descripcion": "Koopa Troopa Verde es un personaje de la larga y exitosa franquicia de Mario.",
+        "imagenes": [
+            "img/23arteKoopaVerde/1-arte-koopa.png",
+            "img/23arteKoopaVerde/2-arte-koopa.png",
+            "img/23arteKoopaVerde/3-arte-koopa.png",
+            "img/23arteKoopaVerde/4-arte-koopa.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 24283",
+            "Fecha de publicación: 2018-04-20 10:27",
+            "Criaturas parecidas a tortugas con caparazones desmontables que vienen en muchos colores diferentes, siendo Koopa Troopas verdes",
+            "Los ojos especialmente el pequeño punto blanco, son bastante pequeños.",
+            "Altura: 12cm.",
+            "Recomendación: Impresión multicolor. Imprima cada parte en el color correcto y péguela después. No hay necesidad de pintar nada."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 21",
+              "calificacion": 5,
+              "fecha": "27/04/2023",
+              "comentario": "Ya tengo a mis 2 criaturas, la roja y ahora la verde."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 24,
+        "nombre": "Lakitu",
+        "descripcion": "Lakitu es un personaje de la larga y exitosa franquicia de Mario.",
+        "imagenes": [
+            "img/24arteLakitu/1-arte-lakitu.png",
+            "img/24arteLakitu/2-arte-lakitu.png",
+            "img/24arteLakitu/3-arte-lakitu.png",
+            "img/24arteLakitu/4-arte-lakitu.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 25339",
+            "Fecha de publicación: 2018-05-15 07:42",
+            "Los lakitus son koopas que cabalgan sobre nubes en el cielo, en su mayoría lanzando Spiny Eggs sobre Mario o Luigi.",
+            "Cuando son derrotados, sus nubes pueden ser montadas por un corto período de tiempo",
+            "Altura: 15cm.",
+            "Recomendación: Impresión multicolor. Imprima cada parte en el color correcto y péguela después. No hay necesidad de pintar nada."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 22",
+              "calificacion": 5,
+              "fecha": "25/04/2023",
+              "comentario": "Increíble combina en su nuevo lugar, está preciosa."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 25,
+        "nombre": "Magikoopa",
+        "descripcion": "Magikoopa es un personaje de la larga y exitosa franquicia de Mario.",
+        "imagenes": [
+            "img/25arteMagi/1-arte-magi.png",
+	        "img/25arteMagi/2-arte-magi.png",
+            "img/25arteMagi/3-arte-magi.png",
+            "img/25arteMagi/4-arte-magi.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 27675",
+            "Fecha de publicación: 2018-06-26 12:50",
+            "Magikoopas son koopas con anteojos que pueden lanzar hechizos.",
+            "Recomendación: Impresión multicolor. Imprima cada parte en el color correcto y péguela después. No hay necesidad de pintar nada."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 23",
+              "calificacion": 4,
+              "fecha": "15/07/2023",
+              "comentario": "Muy feliz con mi nueva adquisión, es una marravilla este diseño."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 26,
+        "nombre": "Planta piraña",
+        "descripcion": "Planta piraña una versión de la franquicia de Mario.",
+        "imagenes": [
+            "img/26artePlantaPiraña/1-arte-planta.png",
+            "img/26artePlantaPiraña/2-arte-planta.png",
+            "img/26artePlantaPiraña/3-arte-planta.png",
+            "img/26artePlantaPiraña/4-arte-planta.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 775362",
+            "Fecha de publicación: 2022-07-06 23:02",
+            "Creada en múltiples versiones así como otra planta",
+            "Colores en la cabeza principal y los puntos de la cabeza, así como el tallo y las hojas."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 24",
+              "calificacion": 5,
+              "fecha": "18/09/2023",
+              "comentario": "Ya tengo la mía, está adornando mi patio con el resto de las plantas."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 27,
+        "nombre": "Planta de Mario",
+        "descripcion": "Planta de Mario es una versión de la franquicia de Mario.",
+        "imagenes": [
+            "img/27artePlantaMario/1-arte-planta.png",
+	        "img/27artePlantaMario/2-arte-planta.png",
+            "img/27artePlantaMario/3-arte-planta.png",
+            "img/27artePlantaMario/4-arte-planta.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 29674",
+            "Fecha de publicación: 2018-08-03 12:44",
+            "Creada en múltiples versiones así como otra planta",
+            "Colores en la cabeza principal y los puntos de la cabeza, así como el tallo y las hojas."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 25",
+              "calificacion": 4,
+              "fecha": "12/11/2023",
+              "comentario": "Me quedó mejor de lo que esperaba, ya esta decorando mi living."
+          }
+        ],
+        "categoria": "arte",
+        "archivo" : ""
+    },
+    {
+        "id" : 28,
+        "nombre": "Juguetes de animales",
+        "descripcion": "Juguetes de animales que se mueve",
+        "imagenes": [
+            "img/28jugAnimal/1-juguete-animal.png",
+            "img/28jugAnimal/2-juguete-animal.png",
+            "img/28jugAnimal/3-juguete-animal.png",
+            "img/28jugAnimal/4-juguete-animal.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 407676",
+            "Fecha de publicación: 2021-04-21 13:26",
+            "Al pulsar el botón con resorte, las cuerdas que sujetan todas las piezas se aflojan y se derrumba",
+            "Generar un soporte a 45º, un 15% de relleno y utilizar un borde de 4mm.",
+            "Recomendación: una altura de capa de 0,1 mm a 0,2 mm."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 26",
+              "calificacion": 4,
+              "fecha": "25/04/2023",
+              "comentario": "No sabía donde lo podía conseguir, me receurda a mi infancia."
+          }
+        ],
+        "categoria": "juguete",
+        "archivo" : ""
+    },
+    {
+        "id" : 29,
+        "nombre": "Cadena de juguetes",
+        "descripcion": "Una cadena de juguetes de construcción.",
+        "imagenes": [
+            "img/29jugCadena/1-cadena-de-juguetes.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 37381",
+            "Fecha de publicación: 2018-11-14 14:29",
+            "Es un juguete,se peude usar para divertir a los gatos, o lo que desea.",
+            "Recomendación: Imprimir en varios colores. Colóquelas juntas, derritiendo las puntas de las clavijas para mantenerlas juntas."
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 27",
+              "calificacion": 5,
+              "fecha": "09/12/2023",
+              "comentario": "Se lo hice a mi hijo, le encantó y se pusó a jugar con el vecino."
+          }
+        ],
+        "categoria": "juguete",
+        "archivo" : ""
+    },
+    {
+        "id" : 30,
+        "nombre": "Tornillos y tuercas de juguetes",
+        "descripcion": "Un surtido de tornillos y tuercas para el disfrute de los niños",
+        "imagenes": [
+            "img/30jugConstruir/1-jug-construir.png",
+            "img/30jugConstruir/2-jug-construir.png",
+            "img/30jugConstruir/3-jug-construir.png",
+            "img/30jugConstruir/4-jug-construir.png",
+            "img/30jugConstruir/5-jug-construir.png",
+            "img/30jugConstruir/6-jug-construir.png",
+            "img/30jugConstruir/7-jug-construir.png",
+            "img/30jugConstruir/8-jug-construir.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 77373",
+            "Fecha de publicación: 2019-09-27 14:02",
+            "Impreso en PLA 1.75 con Alfawise U20 vía Cura con una altura de capa de 0.15 y un relleno del 20%.",
+            "Aproximadamente 7 horas de impresión para el juego completo (3 tornillos + 3 tuercas)"
+        ], 
+        "comentarios": [
+            {
+              "usuario": "Usuario 28",
+              "calificacion": 5,
+              "fecha": "12/05/2023",
+              "comentario": "Super util para los más pequelos, me encanta verlos jugar."
+          }
+        ],
+        "categoria": "juguete",
+        "archivo" : ""
+    },
+    {
+        "id" : 31,
+        "nombre": "Lámpara seta estilo moderno",
+        "descripcion": "Lámpara de estilo moderno, tiene una forma sencilla con líneas geométricas.",
+        "imagenes": [
+            "img/31lamparaSetaModerna/1-lampara-seta-moderna.png",
+            "img/31lamparaSetaModerna/2-lampara-seta-moderna.jpg",
+            "img/31lamparaSetaModerna/3-lampara-seta-moderna.png",
+            "img/31lamparaSetaModerna/4-lampara-seta-moderna.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1291964",
+            "Fecha de publicación: 2023-06-26 14:22",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 2 partes.",
+            "Iluminación: Ofrece una distribución uniforme de la luz en todo su cuerpo",
+            "Recomendación: Portalámpara es E14/E12."
+        ], 
+        "comentarios": [
+            {
+            "usuario": "Usuario 29",
+            "calificacion": 4,
+            "fecha": "20/01/2024",
+            "comentario": "La compré para mi estudio. La luz es perfecta para trabajar y el diseño moderno añade un toque elegante."
+            }
+        ],
+        "categoria": "hogar",
+        "archivo" : ""
+    },
+    {
+        "id" : 32,
+        "nombre": "Lámpara seta",
+        "descripcion": "Lámpara de noche, basada en la seta pequeña, forma sencilla con nuevo diseño.",
+        "imagenes": [
+            "img/32lamparaSeta/1-lampara-seta.png",
+            "img/32lamparaSeta/2-lampara-seta.png",
+            "img/32lamparaSeta/3-lampara-seta.png",
+            "img/32lamparaSeta/4-lampara-seta.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1291964",
+            "Fecha de publicación: 2023-06-26 14:22",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 11 partes.",
+            "Ensamblado: Fácil de montar, sin tornillos (quizás necesite un poco de pegamento para pegar las 9 tapas en la cabeza).",
+            "Recomendación: Luz led (menos de 3,5W) con soporte E27."
+        ], 
+        "comentarios": [
+            {
+            "usuario": "Usuario 30",
+            "calificacion": 5,
+            "fecha": "25/01/2024",
+            "comentario": "¡Hermosa lámpara! La armé en menos de 30 minutos y le da un toque encantador a mi habitación."
+            }
+        ],
+        "categoria": "hogar",
+        "archivo" : ""
+    },
+    {
+        "id" : 33,
+        "nombre": "Lámpara con cristal tradicional asiática",
+        "descripcion": "Lámpara de noche con patrones de paneles tradicionales asiáticos.",
+        "imagenes": [
+            "img/33lamparaTradicional/1-lampara-tradicional.png",
+            "img/33lamparaTradicional/2-lampara-tradicional.png",
+            "img/33lamparaTradicional/3-lampara-tradicional.png",
+            "img/33lamparaTradicional/4-lampara-tradicional.png"
+        ],
+        "caracteristicas": [
+            "Número de diseño: 1291979",
+            "Fecha de publicación: 2023-06-26 14:22",
+            "Temperatura de la placa de impresión: entre 50°C y 80°C.",
+            "Velocidad de impresión: de 30 a 100 mm/s.",
+            "Piezas: 7 partes.",
+            "Ensamblado: Estructura mortise-tenon y se puede montar fácilmente.",
+            "Recomendación:  bombillas LED T22 (1-3W) con casquillo E12/E14."
+        ], 
+        "comentarios": [
+            {
+            "usuario": "Usuario 31",
+            "calificacion": 4,
+            "fecha": "01/02/2024",
+            "comentario": "La luz a través de los paneles crea un ambiente encantador. El montaje fue más fácil de lo que pensaba."
+            }
+        ],
+        "categoria": "hogar",
+        "archivo" : ""
+    }
+]

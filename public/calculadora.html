@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título en CALCULADORA-->
+    <title>Calculadora de Impresión 3D</title>
+    <!-- Enlace a Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap/dist/css/bootstrap.min.css">
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/calculadora.css">
+    <!--Favicon-->
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+
+<body>
+    <header class="header fixed-top"></header>
+    <div class="loader-container">
+        <!-- Contenedor del loader -->
+        <div class="loader2"></div>
+    </div>
+
+
+    <main class="calculadora">
+        <h1>
+            Calculadora de Impresión 3D
+        </h1>
+        <div class="contenedor-inputs">
+            <div class="form-row">
+                <label for="cantidad">Cantidad de impresiones:</label>
+                <input type="number" id="cantidad" placeholder="Cantidad">
+            </div>
+            <div class="form-row">
+                <label for="costo">Costo por impresión ($):</label>
+                <input type="number" id="costo" placeholder="Costo por impresión">
+            </div>
+            <div class="form-row">
+                <label for="material">Tipo de material:</label>
+                <select id="material">
+                    <option value="pla">PLA</option>
+                    <option value="abs">ABS</option>
+                    <option value="petg">PETG</option>
+                </select>
+            </div>
+            <div class="form-row">
+                <label for="peso">Peso del material por impresión (g):</label>
+                <input type="number" id="peso" placeholder="Peso del material">
+            </div>
+            <div class="form-row">
+                <label for="altura">Altura de capa (mm):</label>
+                <input type="number" id="altura" placeholder="Altura de capa">
+            </div>
+            <div class="form-row">
+                <label for="tiempo">Tiempo de impresión (horas):</label>
+                <input type="number" id="tiempo" placeholder="Tiempo de impresión">
+            </div>
+            <div class="form-row">
+                <label for="tarifa">Tarifa de trabajo por hora ($):</label>
+                <input type="number" id="tarifa" placeholder="Tarifa de trabajo">
+            </div>
+        </div>
+        <div class="contenedor-boton">
+            <button type="button" id="btnCalcularPrecio">Calcular Precio Total</button>
+            <div class="precio-total" id="precioTotal"></div>
+        </div>
+    </main>
+
+
+    <footer class="pie-pagina"></footer>
+
+    <script src="js/calculadora.js"></script>
+    <script src="js\loadNavFooter.js"></script>
+</body>
+
+</html>

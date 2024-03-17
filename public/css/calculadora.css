@@ -1,0 +1,79 @@
+.calculadora {
+    display: flex;
+    flex-direction: column;
+    border: solid 1px rgb(61, 61, 61);
+    color: white;
+    padding: 30px;
+    margin-top: 50px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 0.5);
+}
+
+.calculadora>h1 {
+    margin-bottom: 20px;
+}
+
+.calculadora .form-row {
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.calculadora .form-row input,
+.calculadora .form-row select {
+    width: 250px;
+    padding: 5px;
+}
+
+.calculadora .form-row label {
+    text-align: right;
+    width: 300px;
+    font-weight: bold;
+    padding-right: 15px;
+    padding-top: 6px;
+}
+
+.calculadora .contenedor-boton button {
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    margin-top: 10px;
+    padding: 5px 20px;
+    transition: all 0.3s;
+}
+
+.calculadora .contenedor-boton button:hover {
+    background-color: #0056b3;
+}
+
+.calculadora .precio-total {
+    font-size: 36px;
+    font-weight: bold;
+    color: #28a745;
+    margin-top: 20px;
+}
+
+@media screen and (max-width: 1150px) {
+    .calculadora {
+        width: clamp(400px, 75%, 800px);
+    }
+
+    .calculadora .contenedor-inputs {
+        width: clamp(300px, 70%, 450px);
+    }
+
+    .calculadora .form-row {
+        flex-direction: column;
+    }
+
+    .calculadora .form-row input,
+    .calculadora .form-row select {
+        width: 100%;
+    }
+
+    .calculadora .form-row label {
+        text-align: left;
+        padding: 6px 0;
+        width: fit-content;
+    }
+}

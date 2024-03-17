@@ -1,0 +1,279 @@
+#relatedProductsCarousel {
+    width: 100%; /* Ajusta según sea necesario */
+    overflow: hidden; /* Para evitar que las tarjetas se desborden */
+}
+.swiper-slide {
+    width: 100%; /* O ajusta según sea necesario */
+    display: flex;
+}
+#contenedor-principal{
+    margin-top: 140px;
+}
+#miCarousel img{
+    width: 50em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+}
+.star.checked {
+    color: rgb(255, 169, 40);
+}
+.star{
+    cursor: pointer;
+}
+/* .product-image {
+    border-radius: 10px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease-in-out;
+} */
+
+/* .product-image:hover {
+    transform: scale(1.05);
+} */
+/*
+.product-details {
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.3s ease-in-out;
+}
+
+.product-details:hover {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.2);
+}
+*/
+/* 
+.btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease-in-out;
+} */
+
+/* .btn-primary:hover {
+    background-color: #0056b3;
+} */
+
+/* .btn-primary {
+    background-color: #007bff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    letter-spacing: 1px;
+    transition: background-color 0.3s ease-in-out;
+} */
+
+/* Estilos para móviles */
+@media (max-width: 980px) {
+    /* #comentarioTitulo {
+        margin-top: 30px;
+    } */
+    
+    .container .bg-light {
+        border: none;
+        box-shadow: none;
+    }
+    .shadow {
+        box-shadow: none !important; /* Elimina la sombra del elemento con clase .shadow en dispositivos móviles */
+    }
+    /* .product-details{
+        margin-top: 50px;
+    } */
+    #downloadButton .icon {
+        display: none;
+    }
+
+    #comentariosContenedor{
+        height: 720px;
+        box-sizing: border-box;
+        margin: black;
+        width: 100%;
+    }
+  
+}
+
+@media (min-width: 980px) {
+
+    #carrusel-info{
+        margin: 100px 0;
+    }
+    /* #img-miniaturas{
+        padding-top: 20px;
+    } */
+
+    #form-comentarios{
+        margin: 100px 0;
+    }
+/* 
+    #comentarioTitulo{
+        margin-top:10px;
+    } */
+    #titulo-reseñas{
+        margin: 0 !important;
+        padding: 0 !important;
+    }
+   
+    #comentariosContenedor{
+        margin: 0 !important;
+    }
+    /*boton*/
+    #downloadButton .icon {
+        display: none; /* Inicialmente oculta el icono */
+        font-size: 30px;
+    }
+    
+    #downloadButton:hover .button-text {
+        display: none; /* Oculta el texto cuando se hace hover */
+    }
+    
+    #downloadButton:hover .icon {
+        display: inline-block; /* Muestra el icono cuando se hace hover */
+    }
+    #downloadButton{
+        height: 50px;
+        width: 230px;
+        box-sizing: border-box;
+    }
+
+    #comentariosContenedor{
+        height: 500px;
+        box-sizing: border-box;
+        margin: black;
+        width: 100%;
+    }
+
+    .img-comentario {
+        width: 65px !important;
+        height: auto !important;
+        text-align: center !important;
+    }
+}
+/* Estilos para la sección de comentarios */
+/* #userComment {
+    resize: none;
+} */
+/* Estilos para el formulario de comentarios */
+/* #userCommentForm {
+    margin-top: 80px;
+    /* Ajusta este valor según la altura del primer comentario */
+/*}*/ 
+/* 
+.media {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.media img {
+    width: 80px;
+    height: 80px;
+}
+
+.media-body h5 {
+    margin-top: 0;
+}
+
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.btn-primary {
+    background-color: #007bff;
+    color: white;
+}
+
+.btn-primary:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para las calificaciones */
+/* .rating {
+    color: #f39c12;
+}
+.star {
+    font-size: 24px;
+    cursor: pointer;
+    color: #ccc;
+}
+
+.star.checked {
+    color: gold;
+}
+
+.colorear {
+    color: gold;
+} */
+
+
+/* Estilos para las tarjetas de productos relacionados */
+/* .card {
+    border: none;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: scale(1.05);
+} */
+
+/* carrusel 1 */
+/* .carousel-inner .carousel-item {
+    transition: transform 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+.carousel-inner .carousel-item-left.active,
+.carousel-inner .carousel-item-right.active,
+.carousel-inner .carousel-item-next,
+.carousel-inner .carousel-item-prev {
+    opacity: 0.5;
+
+} */
+
+/* Estilos para las imágenes del carrusel */
+/* .carousel-inner .carousel-item img {
+    width: 100%;
+    height: 300px;
+    object-fit: contain;
+    object-position: center;
+    transition: transform 0.4s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+} */
+
+/* 
+.carrusel-principal .carousel-item img:hover{
+   /* height: 100%;
+    transform: scale(1.1);
+    box-shadow: 10px 10px 10px 0px rgba(0,0,0,0.75);
+} */
+
+/*miniaturas*/
+/* Agrega un efecto de escala y bordes con sombra al hacer hover sobre las miniaturas */
+/* .thumbnail {
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    cursor: pointer;
+    height: 80px;
+   
+} */
+
+/* .thumbnail:hover {
+    transform: scale(1.1);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+  
+} */
+
+/* .logo {
+    max-height: 40px; /* Establece la altura máxima del logo
+    /* Puedes ajustar este valor según el tamaño deseado para el logo 
+    width: auto; Asegura que el ancho se ajuste automáticamente según la altura}
+/* Estilos adicionales */
+
+/* #botones-comentario .btn-comentario {
+    margin-top: -40px; /* Puedes ajustar el valor según sea necesario 
+    height: 30px;
+}  */

@@ -1,0 +1,39 @@
+
+const jsonPath = "/public/json/productos.json";
+const collectionName = 'productos';
+
+async function leerYProcesarJson() {
+    try {
+        
+        const response = await fetch(jsonPath); 
+        const data = await response.json();
+        //------DEBUG--------
+        // console.log(data);
+        // for (const p of data) {
+        //   console.log(p);
+        // }
+        //-------------------
+        data.forEach(p => {
+            //delete p.id; //Quita el id del objeto para no subirlo a la db
+            //console.log(p);
+            addDoc(collection(db, collectionName), p)
+        });
+    } catch (error) {
+        console.log(`Se produjo un error: ${error.message}`);
+    }
+}
+
+leerYProcesarJson();
+
+getDocs(collection(db, collectionName))
+    .then((snapshot) => {
+        // console.log(snapshot);
+        let arr = [];
+        snapshot.docs.forEach((doc) => {
+            arr.push({ ...doc.data(), id: doc.id })
+        });
+        console.log(arr);
+    })
+    .catch(err => {
+        console.log(err.message);
+    })

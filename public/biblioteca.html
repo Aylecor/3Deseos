@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Título en PRODUCTOS-->
+    <title>Tienda de Productos</title>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js" crossorigin="anonymous"></script>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="icon" type="image/x-icon" href="img/logo.png">
+</head>
+
+<body>
+    <header class="header fixed-top"></header>
+    <div class="loader-container">
+        <!-- Contenedor del loader -->
+        <div class="loader2"></div>
+    </div>
+
+    <div class="filtrar">
+        <div class="">
+            <h5 class="text-secondary">Buscar por Nombre</h5>
+            <input type="text" class="form-control mb-0" id="searchInput" placeholder="Nombre del producto">
+            <h5 class="text-secondary p-0 m-0">Categoría</h5>
+            <select class="form-control m-0 form-control col-auto">
+                <option>Todas</option>
+                <option>Prótesis</option>
+                <option>Arte</option>
+                <option>Juguetes</option>
+                <option>Hogar</option>
+            </select>
+            <h5 class="text-secondary p-0 m-0">Compatibilidad de Impresora</h5>
+            <select class="form-control p-m-0">
+                <option>Todas</option>
+                <option>PLA</option>
+                <option>ABS</option>
+                <option>Resina</option>
+            </select>
+            <h5 class="text-secondary p-0 m-0">Complejidad</h5>
+            <select class="form-control m-0 ">
+                <option>Todas</option>
+                <option>Fácil</option>
+                <option>Intermedio</option>
+                <option>Avanzado</option>
+            </select>
+                    <button class="mx-auto mt-4 btn-Publicar"  id="applyFiltersBtn">Buscar</button>
+        </div>
+    </div>
+                <div class="contenedor-principal" id="product-container">
+                    <!-- Las tarjetas se cargarán aquí dinámicamente -->
+                </div>
+        </div>
+    </div>
+
+    <footer class="pie-pagina"></footer>
+
+    <script src="js/loadNavFooter.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>    <script src="js/biblioteca.js"></script>
+</body>
+
+</html>
